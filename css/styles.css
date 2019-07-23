@@ -195,3 +195,24 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media only screen and (min-width: 768px) {
+  .site-nav {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 2% 98%;
+    bottom: 0;
+    top:0;
+    z-index: 1;
+    background-color: #ffffff;
+    }
+
+   .movie-overview {
+    display: inline-block;
+    }
+
+    .site-footer {
+      background-color: black;
+      color: white;
+    }
+}
